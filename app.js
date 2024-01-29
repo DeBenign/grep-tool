@@ -62,6 +62,7 @@ const options = {
   recursive: args.includes('-r'),
   invertMatch: args.includes('-v'),
   caseInsensitive: args.includes('-i'),
+  digit: args.includes('\d'),
 };
 
 // Handle the case when no pattern or directory/file is provided
